@@ -1,0 +1,35 @@
+/*MENU LATERAL*/
+.menuLat{
+	display: block;
+	height: 100%;
+	width: 42px; 
+	position: fixed;/*Posição fixada*/
+	background-color: #6d6965;
+	top: 0;
+	right: 0;
+	z-index: 999;
+}
+.menuLat ul{
+	list-style: none;
+}
+.menuLat ul li{
+	margin-bottom: 22px;
+	text-align: center;
+	font-size: 25px;
+}
+.menuLat ul li:nth-child(1){
+	margin-top: 17px;
+}
+.menuLat ul li:last-child{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+
+.menuLat ul li:hover{
+	background-color: #FD6A02;
+	border-radius: 7px;
+}
+.menuLat ul li a i{
+	color: #fff;
+}

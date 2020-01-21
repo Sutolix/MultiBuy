@@ -1,0 +1,94 @@
+/*CORES USADAS:;
+Laranja: #FD6A02;
+Cor de fundo: #000080;
+Azul: #000080;
+Preto: #353535;
+*/
+
+/*---------RESET---------*/
+*{
+	margin: 0;/*Distancia da borda para fora zerada*/
+	padding: 0;/*Distancia entre o elemento e a borda zerada*/
+	font-size: 100%;/*Tamanho da fonte*/
+	border: none;/*Sem bordas*/
+	outline: none;/*Sem contorno*/
+	font-weight: 300;/*Peso ou intensidade da fonte (negrito)*/
+	box-sizing: border-box;/*Quando utilizar padding não altera as dimensões do elemento*/
+	font-family: 'Poppins', sans-serif;/*Fonte do Google Fonts, definida aqui como padrão*/
+}
+body{
+	background: url(../img/background.jpg) no-repeat fixed;
+}
+.geral {
+    min-height:100%;
+    position:relative;
+    width:calc(100% - 42px);
+}
+
+.container{
+	width: 100%;
+	float: left;
+	padding: 3% 4%;
+	text-align: center;
+}
+/*CABEÇALHO*/
+.cabecalho{
+	background: url(../img/banner.jpg) no-repeat;
+	height: 190px;
+	border: 1px solid;
+	border-bottom-color: gray;
+	border-left: 0;
+	border-right: 0;
+	border-top: 0; 
+}
+
+/*BANNER*/
+
+.imaget{
+	position: absolute;
+	top: 1%;
+	right: 20%;
+}
+
+/*LOGO*/
+.logo{
+	position: absolute;
+	width: 420px;
+	height: 122px;
+	top: 1%;
+	left: 0;
+	float: left;/*Para flutuar a esquerda*/
+	background: url(../img/logo.png) center center/400px no-repeat;
+	font-size: 0;/*Para o texto não aparecer*/
+}
+.giflogo{
+	position: relative;
+	max-width: 210px;
+	width: auto;
+	height: 100px;
+	background: url(../img/giflogo.gif)center center/400px;
+	left: 68%;
+	top: 48%;
+	clear: both;
+}
+.attention{
+	border-radius: 4px;
+	background: url(../img/backattention.jpg);
+	width: 100%;
+	display: flex;
+	align-items: center;
+}
+.at50 p{
+	margin: 0 2%;
+	font-weight: 500;
+}
+.at50 img{
+	width: 80px;
+	margin-left: 20px;
+}
+
+.at50 a{
+	text-decoration: none;
+	font-weight: 510;
+	color: black;
+}
