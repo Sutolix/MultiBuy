@@ -9,4 +9,4 @@ O trabalho consistia em criar um serviço de auxílio a importações em sites e
 ## Tecnologias usadas:
 HTML5, CSS e Bootstrap.
 
-*Isto é apenas um projeto, a marca "MultiBuy" foi apenas um nome escolhido para servir como exemplo.*
+###### *Isto é apenas um projeto, a marca "MultiBuy" foi apenas um nome escolhido para servir como exemplo.*
